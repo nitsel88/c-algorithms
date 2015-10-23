@@ -116,7 +116,7 @@ typedef enum {
  *                         are equal.
  */
 
-typedef int (*AVLTreeCompareFunc)(AVLTreeValue value1, AVLTreeValue value2);
+typedef int (*AVLTreeCompareFunc)(AVLTreeValue key1, AVLTreeValue key2);
 
 /**
  * Create a new AVL tree.
